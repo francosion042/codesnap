@@ -1,0 +1,25 @@
+{
+  "name": "codesnap",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/CodeSnap.js",
+  "types": "lib/CodeSnap.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "run-example": "ts-node examples/example.ts",
+    "test": "jest",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Anthony Nwobodo",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3"
+  }
+}
