@@ -31,7 +31,7 @@ import CodeSnap from "codesnap";
 
 const config = {
   theme: "Monokai",
-  backgroundColor: "Black",
+  backgroundColor: "Cyan",
   numberLines: true,
 };
 
