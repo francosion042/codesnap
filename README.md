@@ -19,12 +19,12 @@ yarn add codesnap
 ## Usage
 
 ```javascript
-import CodeSnap from 'codesnap';
+import CodeSnap from "codesnap";
 
 const config = {
-  theme: 'Dracula',
-  backgroundColor: 'Black',
-  numberLines: true
+  theme: "Monokai",
+  backgroundColor: "Black",
+  numberLines: true,
 };
 
 const codeSnap = new CodeSnap(config);
@@ -55,5 +55,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Credits
 
 CodeSnap is powered by [Carbon.now.sh](https://carbon.now.sh/) and [Puppeteer](https://github.com/puppeteer/puppeteer).
+
 ```markdown
+
 ```
