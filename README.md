@@ -48,8 +48,9 @@ greet();
 codeSnap.snap(code);
 ```
 <div align="center">
-<img src="examples/codeSnapshot-example.png">
+    <img src="examples/codeSnapshot-example.png">
 </div>
+
 ## Configuration
 
 The `CodeSnap` constructor accepts a configuration object with the following properties:
