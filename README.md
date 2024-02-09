@@ -1,5 +1,13 @@
 # CodeSnap
 
+<!-- markdownlint-disable MD029 -->
+<!-- markdownlint-disable MD033 -->
+<div align="center">
+
+[![Publish Package to npmjs](https://github.com/francosion042/codesnap/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/francosion042/codesnap/actions/workflows/npm-publish.yml) [![npm version](https://img.shields.io/npm/v/codesnap.svg?style=flat-square)](https://www.npmjs.org/package/codesnap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![Downloads](https://img.shields.io/npm/dm/codesnap.svg)](https://www.npmjs.com/package/codesnap)
+
+</div>
+
 CodeSnap is a node.js library designed to programmatically generate images of code snippets using the Carbon.now.sh service. It provides a simple and convenient way to create beautiful snapshots of your code for automated sharing in documentation, presentations, or social media.
 
 ## Installation
