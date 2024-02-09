@@ -39,7 +39,7 @@ export default class CodeSnap {
       await browser.close();
       console.log(buffer);
 
-      await sharp(buffer).toFile("codeSnapshot-example.png");
+      await sharp(buffer).toFile("codeSnapshot.png");
     }
   }
 }
