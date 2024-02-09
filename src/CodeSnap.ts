@@ -16,6 +16,7 @@ export default class CodeSnap {
 
   public async snap (code: string) {
     const carbonUrl = composeCarbonUrl(this.theme, this.backgroundColor, this.numberLines, code)
+
     const browser = await puppeteer.launch({ headless: true, args: ["--no-sandbox", "--disable-setuid-sandbox"]});
     const page = await browser.newPage();
     await page.goto(carbonUrl);
@@ -26,10 +27,8 @@ export default class CodeSnap {
       await browser.close();
       console.log(buffer)
 
-      await sharp(buffer).toFile(__dirname + 'output_image.png')
+      await sharp(buffer).toFile('codeSnapshot.png')
     }
   }
 
 }
-
-// new CodeSnap({theme: 'Monokai', backgroundColor: 'White',numberLines: true})
