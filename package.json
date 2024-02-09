@@ -1,7 +1,7 @@
 {
   "name": "codesnap",
   "version": "0.0.1",
-  "description": "",
+  "description": "CodeSnap is a node.js library designed to programmatically generate images of code snippets using the Carbon.now.sh service. It provides a simple and convenient way to create beautiful snapshots of your code for automated sharing in documentation, presentations, or social media.",
   "main": "lib/CodeSnap.js",
   "types": "lib/CodeSnap.d.ts",
   "scripts": {
@@ -12,9 +12,17 @@
     "lint": "eslint \"src/{**, *.ts}/*.ts\" --fix",
     "format": "prettier --write ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francosion042/codesnap.git"
+  },
   "keywords": [],
   "author": "Anthony Nwobodo",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francosion042/codesnap/issues"
+  },
+  "homepage": "https://github.com/francosion042/codesnap#readme",
   "dependencies": {
     "puppeteer": "^22.0.0",
     "sharp": "^0.33.2"
