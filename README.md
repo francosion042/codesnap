@@ -1,4 +1,4 @@
-# codeSnap
+# CodeSnap
 
 CodeSnap is a node.js library designed to programmatically generate images of code snippets using the Carbon.now.sh service. It provides a simple and convenient way to create beautiful snapshots of your code for automated sharing in documentation, presentations, or social media.
 
