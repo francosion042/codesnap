@@ -8,7 +8,7 @@
 
 </div>
 
-CodeSnap is a node.js library designed to programmatically generate images of code snippets using the Carbon.now.sh service. It provides a simple and convenient way to create beautiful snapshots of your code for automated sharing in documentation, presentations, or social media.
+CodeSnap is a node.js library designed to programmatically generate images of code snippets. It provides a simple and convenient way to create beautiful snapshots of your code for further automated or programmatic usage.
 
 ## Installation
 
@@ -47,7 +47,9 @@ greet();
 
 codeSnap.snap(code);
 ```
-
+<div align="center">
+<img src="examples/codeSnapshot-example.png">
+</div>
 ## Configuration
 
 The `CodeSnap` constructor accepts a configuration object with the following properties:

@@ -3,9 +3,17 @@ import CodeSnap from "../lib/CodeSnap";
 (async () => {
   const codeSnap = new CodeSnap({
     theme: "Monokai",
-    backgroundColor: "White",
+    backgroundColor: "Cyan",
     numberLines: true,
   });
 
-  await codeSnap.snap("console.log('Hello')");
+  const code = `
+    function greet() {
+      console.log('Hello, world!');
+    }
+    
+    greet();
+    `;
+
+  await codeSnap.snap(code);
 })();
