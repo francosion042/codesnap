@@ -1,9 +1,9 @@
 import puppeteer from "puppeteer";
 import sharp from "sharp";
-
 import { type CodeSnapConfigType } from "./types";
 import { BackgroundColors, Themes } from "./enums";
 import { composeCarbonUrl } from "./utils";
+
 export default class CodeSnap {
   private readonly theme: string;
   private readonly backgroundColor: string;

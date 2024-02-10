@@ -67,6 +67,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 CodeSnap is powered by [Carbon.now.sh](https://carbon.now.sh/) and [Puppeteer](https://github.com/puppeteer/puppeteer).
 
-```markdown
-
-```
