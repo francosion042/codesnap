@@ -48,7 +48,7 @@ greet();
 codeSnap.snap(code);
 ```
 <div align="center">
-    <img src="examples/codeSnapshot-example.png">
+    <img src="examples/codeSnapshot-example.png" alt="example image">
 </div>
 
 ## Configuration
